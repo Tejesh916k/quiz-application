@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img1.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.804);
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(17, 17, 17, 0.3);
+    
+}
+
+h2 {
+    color: #f4c542;
+}
+
+form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+label, p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="radio"] {
+    margin: 5px;
+    color: #0d0d0d;
+}
+
+input[type="submit"] {
+    background: #fdfdfd;
+    color: rgb(27, 109, 24);
+    border:3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+input[type="submit"]:hover {
+    background: #169832;
+    color: white;
+    
+    
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #f4c542;
+    color: black;
+}
+
+td {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #f4c542;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #ffcc00;
+
+}
+.score
+{
+    text-decoration: underline;
+}
